@@ -24,7 +24,7 @@ Route::get('posts/{post:slug}', function (Post $post ) {
 });
 ```
 
-If you wanna identify by the slug, and have the slug in the url like in this case, but dont wanna have it there, you can always add this function to the Post Model
+If you wanna identify by the slug, and have the slug in the url like in this case, but dont wanna have it there, you can always add this function to the Post Model.
 
 ```php
 public function getRouteKeyName() {
