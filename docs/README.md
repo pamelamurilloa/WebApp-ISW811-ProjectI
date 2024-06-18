@@ -52,4 +52,6 @@ Pamela Murillo Anchia
 
 - [26. Clockwork, and the N+1 Problem](./4-Working%20with%20Databases/clockwork-and-the-n+1-problem.md)
 
+- [27. Database Seeding Saves time](./4-Working%20with%20Databases/database-seeding-saves-time.md)
+
 ## Integrate the Design
