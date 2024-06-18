@@ -25,11 +25,12 @@ Route::get('posts/{post}', function ($post) {
         return redirect('/');
     }
 
-    $postContent = file_get_contents($path);
+    $postContent = cache()->remember("posts.{post}", now()->addMinutes(20), fn () => file_get_contents($path));
 
     return view('post', [
         'post' => $postContent
     ]);
+    
 })->where('post', '[A-z_\-]+');
 
 Auth::routes();
