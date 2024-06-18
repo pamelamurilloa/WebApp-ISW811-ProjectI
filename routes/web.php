@@ -25,10 +25,10 @@ Route::get('/', function () {
 
 Route::get('posts/{post}', function ($post) {
     return view('post', [
-        'post' => Post::find($post)
+        'post' => Post::findOrFail($post)
     ]);
 
-})->where('post', '[A-z_\-]+');
+});
 
 Auth::routes();
 

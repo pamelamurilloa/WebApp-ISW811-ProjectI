@@ -25,6 +25,16 @@ class Post
         return static::all()->firstWhere('id', $post);
     }
 
+    public static function findOrFail($post) {
+        $postContent = static::find($post);
+
+        if (! $postContent) {
+            throw new ModelNotFoundException();
+        }
+
+        return $postContent;
+    }
+
     public static function all() {
         return cache()->rememberForever('posts.all', function() {
             return collect(File::files(resource_path("posts")))
