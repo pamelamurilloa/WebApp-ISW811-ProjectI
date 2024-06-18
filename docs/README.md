@@ -50,4 +50,6 @@ Pamela Murillo Anchia
 
 - [25. Show All Posts Associated With a Category](./4-Working%20with%20Databases/show-all-posts-associated-with-a-category.md)
 
+- [26. Clockwork, and the N+1 Problem](./4-Working%20with%20Databases/clockwork-and-the-n+1-problem.md)
+
 ## Integrate the Design
