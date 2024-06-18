@@ -6,3 +6,5 @@ To connect to our previously established database, we must change the data in ou
 Furthermore, we must can install Table Plus to assist on the development.
 
 ![browser image](./images/image01.png)
+
+Then, `php artisan migrate` must be run and then we're good to go.
