@@ -17,8 +17,19 @@ Route::get('/', function () {
     return view('posts');
 });
 
-Route::get('post', function () {
-    return view('post');
+Route::get('posts/{post}', function ($post) {
+    $path = __DIR__ . "/../resources/posts/{$post}.html";
+
+    if (! file_exists($path)) {
+        // abort(404)
+        return redirect('/');
+    }
+
+    $postContent = file_get_contents($path);
+
+    return view('post', [
+        'post' => $postContent
+    ]);
 });
 
 Auth::routes();
