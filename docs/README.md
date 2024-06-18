@@ -48,4 +48,6 @@ Pamela Murillo Anchia
 
 - [24. Your First Eloquent Relationship](./4-Working%20with%20Databases/your-first-eloquent-relationship.md)
 
+- [25. Show All Posts Associated With a Category](./4-Working%20with%20Databases/show-all-posts-associated-with-a-category.md)
+
 ## Integrate the Design
