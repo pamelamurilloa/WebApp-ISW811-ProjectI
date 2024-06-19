@@ -54,8 +54,12 @@ Pamela Murillo Anchia
 
 - [27. Database Seeding Saves time](./4-Working%20with%20Databases/database-seeding-saves-time.md)
 
-- [28. View All Posts By An Author](./4-Working%20with%20Databases/view-all-posts-by-an-author.md)
+- [28. Turbo Boost With Factories](./4-Working%20with%20Databases/turbo-boost-with-factories.md)
 
-- [29. Eager Load Relationships on an Existing Model](./4-Working%20with%20Databases/eager-load-relationships-on-an-existing-model.md)
+- [29. View All Posts By An Author](./4-Working%20with%20Databases/view-all-posts-by-an-author.md)
+
+- [30. Eager Load Relationships on an Existing Model](./4-Working%20with%20Databases/eager-load-relationships-on-an-existing-model.md)
 
 ## Integrate the Design
+
+- [31. Convert the HTML and CSS to Blade](./5-Integrate%20the%20Design/convert-the-html-and-css-to-blade.md)
