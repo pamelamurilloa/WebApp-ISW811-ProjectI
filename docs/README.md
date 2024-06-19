@@ -54,4 +54,6 @@ Pamela Murillo Anchia
 
 - [27. Database Seeding Saves time](./4-Working%20with%20Databases/database-seeding-saves-time.md)
 
+- [28. View All Posts By An Author](./4-Working%20with%20Databases/view-all-posts-by-an-author.md)
+
 ## Integrate the Design
