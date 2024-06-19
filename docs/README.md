@@ -69,3 +69,5 @@ Pamela Murillo Anchia
 - [33 - Convert the Blog Post Page](./5-Integrate%20the%20Design/convert-the-blog-post-page.md)
 
 - [34 - A Small JavaScript Dropdown Detour](./5-Integrate%20the%20Design/a-small-javascript-dropdown-detour.md)
+
+- [35 - How to Extract a Dropdown Blade Component](./5-Integrate%20the%20Design/how-to-extract-a-dropdown-blade-component.md)
