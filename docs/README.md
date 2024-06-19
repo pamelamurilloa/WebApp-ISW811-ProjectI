@@ -71,3 +71,5 @@ Pamela Murillo Anchia
 - [34 - A Small JavaScript Dropdown Detour](./5-Integrate%20the%20Design/a-small-javascript-dropdown-detour.md)
 
 - [35 - How to Extract a Dropdown Blade Component](./5-Integrate%20the%20Design/how-to-extract-a-dropdown-blade-component.md)
+
+- [36 - Quick Tweaks and Clean-Up](./5-Integrate%20the%20Design/quick-tweaks-and-clean-up.md)
