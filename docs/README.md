@@ -63,3 +63,5 @@ Pamela Murillo Anchia
 ## Integrate the Design
 
 - [31. Convert the HTML and CSS to Blade](./5-Integrate%20the%20Design/convert-the-html-and-css-to-blade.md)
+
+- [32 - Blade Components and CSS Grids](./5-Integrate%20the%20Design/blade-components-and-css-grids.md)
