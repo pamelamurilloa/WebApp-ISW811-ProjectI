@@ -67,3 +67,5 @@ Pamela Murillo Anchia
 - [32 - Blade Components and CSS Grids](./5-Integrate%20the%20Design/blade-components-and-css-grids.md)
 
 - [33 - Convert the Blog Post Page](./5-Integrate%20the%20Design/convert-the-blog-post-page.md)
+
+- [34 - A Small JavaScript Dropdown Detour](./5-Integrate%20the%20Design/a-small-javascript-dropdown-detour.md)
