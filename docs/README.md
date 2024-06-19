@@ -56,4 +56,6 @@ Pamela Murillo Anchia
 
 - [28. View All Posts By An Author](./4-Working%20with%20Databases/view-all-posts-by-an-author.md)
 
+- [29. Eager Load Relationships on an Existing Model](./4-Working%20with%20Databases/eager-load-relationships-on-an-existing-model.md)
+
 ## Integrate the Design
