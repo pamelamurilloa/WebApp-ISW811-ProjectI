@@ -13,16 +13,15 @@
 
                         {{ isset($currentCategory) ? ucwords($currentCategory->name) : 'Categories' }}
 
-                        <x-down-arrow name="down-arrow" class="absolute pointer-events-none" />
+                        <x-icon name="down-arrow" class="absolute pointer-events-none" style="right: 12px;"/>
                     </button>
 
                 </x-slot>
-                <x-dropdown-item href="/">All</x-drop-down-item>
+                <x-dropdown-item href="/" :active="request()->routeIs('home')">All</x-dropdown-item>
 
                 @foreach ($categories as $category)
-                {{ isset($currentCategory) && $currentCategory->is($category) ? 'bg-blue- text-white' : '' }}
                     <x-dropdown-item 
-                        href="/categories/{{ $category->slug }}"
+                        href="/?category={{ $category->slug }}"
                         :active='request()->is("categories/{$category->slug}")'
                         >{{ ucwords($category->name)}} 
                     </x-dropdown-item>
