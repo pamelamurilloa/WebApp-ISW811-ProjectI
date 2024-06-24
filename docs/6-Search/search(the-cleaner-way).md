@@ -1,7 +1,5 @@
 [< Go Back](../README.md)
 
-![browser image](./images/image04.png)
-
 # Controllers
 
 To separate random code from the routes, we should have a controller to control specific parts of a Model, like the search bar for the posts. So, we make a PostController from the terminal connected to the VM.
