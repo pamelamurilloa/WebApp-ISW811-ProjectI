@@ -1,7 +1,5 @@
 [< Go Back](../README.md)
 
-![browser image](./images/image04.png)
-
 # Extracting Categories
 
 Categories is only needed in the dropdown component, so we can isolate it by making a CategoryDropdown in our vagrant terminal.
