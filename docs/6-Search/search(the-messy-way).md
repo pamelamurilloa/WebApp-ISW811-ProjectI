@@ -1,7 +1,5 @@
 [< Go Back](../README.md)
 
-![browser image](./images/image04.png)
-
 # Handleling the Request
 
 If we go to the search we have in the header code, we can see it already submits a request when something is typed in, and includes that in the header.
