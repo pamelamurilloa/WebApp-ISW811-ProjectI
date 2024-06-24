@@ -2,7 +2,7 @@
 
 Pamela Murillo Anchia
 
-## The Basics
+## 2 - The Basics
 
 - [05. How a Route Loads a View](./2-The%20Basics//how-a-route-loads-a-view.md)
 
@@ -22,7 +22,7 @@ Pamela Murillo Anchia
 
 - [13. Collection Sorting and Caching Refresher](./2-The%20Basics//collection-sorting-and-caching-refresher.md)
 
-## Blade
+## 3 - Blade
 
 - [14. Blade: The Absolute Basics](./3-Blade//blade-the-absolute-basics.md)
 
@@ -30,7 +30,7 @@ Pamela Murillo Anchia
 
 - [16. A few Tweaks and Consideration](./3-Blade//a-few-tweaks-and-consideration.md)
 
-## Working with Databases
+## 4 - Working with Databases
 
 - [17. Environment Files and Database Connections](./4-Working%20with%20Databases/environment-files-and-database-connections.md)
 
@@ -40,7 +40,7 @@ Pamela Murillo Anchia
 
 - [20. Make a Post Model and Migration](./4-Working%20with%20Databases/make-a-post-model-and-migration.md)
 
-- [21. Eloquent and the Active Record Pattern](./4-Working%20with%20Databases/eloquent-and-the-active-record-pattern.md)
+- [21. Eloquent Updates and HTML Escaping](./4-Working%20with%20Databases/eloquent-updates-and-html-escaping.md)
 
 - [22. 3 Ways to Mitigate Mass Assignment Vulnerabilities](./4-Working%20with%20Databases/three-ways-to-mitigate-mass-assignment-vulnerabilities.md)
 
@@ -60,7 +60,7 @@ Pamela Murillo Anchia
 
 - [30. Eager Load Relationships on an Existing Model](./4-Working%20with%20Databases/eager-load-relationships-on-an-existing-model.md)
 
-## Integrate the Design
+## 5 - Integrate the Design
 
 - [31. Convert the HTML and CSS to Blade](./5-Integrate%20the%20Design/convert-the-html-and-css-to-blade.md)
 
@@ -73,3 +73,43 @@ Pamela Murillo Anchia
 - [35 - How to Extract a Dropdown Blade Component](./5-Integrate%20the%20Design/how-to-extract-a-dropdown-blade-component.md)
 
 - [36 - Quick Tweaks and Clean-Up](./5-Integrate%20the%20Design/quick-tweaks-and-clean-up.md)
+
+___
+
+## 6 - Search
+
+- [37 - Search (The Messy Way)](./6-Search/search(the-messy-way).md)
+
+- [38 - Search (The Cleaner Way)](./6-Search/search(the-cleaner-way).md)
+
+## 7 - Filtering
+
+- [39 - Advanced Eloquent Query Constraints](./7-Filtering/advanced-eloquent-query-constraints.md)
+
+- [40 - Extract a Category Dropdown Blade Component](./7-Filtering/extract-a-category-dropdown-blade-component.md)
+
+- [41 - Author Filtering](./7-Filtering/author-filtering.md)
+
+- [42 - Merge Category and Search Queries](./7-Filtering/extract-a-category-dropdown-blade-component.md)
+
+- [43 - Fix a Confusing Eloquent Query Bug](./7-Filtering/fix-a-confusing-eloquent-query-bug.md)
+
+## 8 - Pagination
+
+- [44 - Laughably Simple Pagination](./8-Pagination/laughably-simple-pagination.md)
+
+## 9 - Forms and Authentication
+
+- [45 - Build a Register User Page](./9-Forms%20and%20Authentication/build-a-register-user-page.md)
+
+- [46 - Automatic Password Hashing With Mutators](./9-Forms%20and%20Authentication/automatic-password-hashing-with-mutators.md)
+
+- [47 -  Failed Validation and Old Input Data](./9-Forms%20and%20Authentication/failed-validation-and-old-input-data.md)
+
+- [48 - Show a Success Flash Message](./9-Forms%20and%20Authentication/show-a-success-flash-message.md)
+
+- [49 - Login and Logout](./9-Forms%20and%20Authentication/login-and-logout.md)
+
+- [50 - Build the Log In Page](./9-Forms%20and%20Authentication/build-the-log-in-page.md)
+
+- [51 - Laravel Breeze Quick Peek](./9-Forms%20and%20Authentication/laravel-breeze-quick-peek.md)
