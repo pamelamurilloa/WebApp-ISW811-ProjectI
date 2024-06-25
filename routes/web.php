@@ -4,6 +4,7 @@ use App\Models\Post;
 use App\Models\Category;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\UregisterController;
+use App\Http\Controllers\SessionsController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\File;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
@@ -24,8 +25,10 @@ Route::get('/', [PostController::class, 'index']);
 
 Route::get('posts/{post:slug}', [PostController::class, 'show']);
 
-Route::get('uregister', [UregisterController::class, 'create']);
-Route::post('uregister', [UregisterController::class, 'store']);
+Route::get('uregister', [UregisterController::class, 'create'])->middleware('guest');
+Route::post('uregister', [UregisterController::class, 'store'])->middleware('guest');
+
+Route::post('logout', [SessionsController::class, 'destroy']);
 
 Auth::routes();
 
