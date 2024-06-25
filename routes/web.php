@@ -28,7 +28,10 @@ Route::get('posts/{post:slug}', [PostController::class, 'show']);
 Route::get('uregister', [UregisterController::class, 'create'])->middleware('guest');
 Route::post('uregister', [UregisterController::class, 'store'])->middleware('guest');
 
-Route::post('logout', [SessionsController::class, 'destroy']);
+Route::get('ulogin', [SessionsController::class, 'create'])->middleware('guest');
+Route::post('ulogin', [SessionsController::class, 'store'])->middleware('guest');
+
+Route::post('ulogout', [SessionsController::class, 'destroy'])->middleware('auth');
 
 Auth::routes();
 

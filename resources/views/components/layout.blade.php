@@ -19,14 +19,14 @@
                 @auth
                     <span class="text-xs font-bold uppercase">Welcome, {{ auth()->user()->name }}</span>
 
-                    <form method="POST" action="/logout" class="text-xs font-semibold text-blue-500 ml-6">
+                    <form method="POST" action="/ulogout" class="text-xs font-semibold text-blue-500 ml-6">
                         @csrf
 
                         <button type="submit">Log Out</button>
                     </form>
                 @else
-                    <a href="/register" class="text-xs font-bold uppercase">Register</a>
-                    <a href="/login" class="ml-6 text-xs font-bold uppercase">Log In</a>
+                    <a href="/uregister" class="text-xs font-bold uppercase">Register</a>
+                    <a href="/ulogin" class="ml-6 text-xs font-bold uppercase">Log In</a>
                 @endauth
             </div>
         </nav>
