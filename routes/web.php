@@ -3,6 +3,7 @@
 use App\Models\Post;
 use App\Models\Category;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PostCommentsController;
 use App\Http\Controllers\UregisterController;
 use App\Http\Controllers\SessionsController;
@@ -22,27 +23,10 @@ use Spatie\YamlFrontMatter\YamlFrontMatter;
 |
 */
 
-Route::post('newsletter', function() {
-    request()->validate(['email'=>'required|email']);
-    $mailchimp = new \MailchimpMarketing\ApiClient();
-    $mailchimp->setConfig([
-        'apiKey' => config('services.mailchimp.key'),
-        'server' => 'us17'
-    ]);
-
-    try {
-        $newsletter->subscribe(request('email'));
-    } catch (Exception $e) {
-        throw ValidationException::withMessages([
-            'email' => 'This email could not be added to our newsletter list.'
-        ]);
-    }
-
-    return redirect('/')->with('success','You are now signed up for our newsletter!');
-});
-
 Route::get('/', [PostController::class, 'index']);
 Route::post('post/{post:slug}/comments', [PostCommentsController::class, 'store']);
+
+Route::post('newsletter', NewsletterController::class);
 
 Route::get('posts/{post:slug}', [PostController::class, 'show']);
 
