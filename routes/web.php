@@ -41,3 +41,5 @@ Route::post('ulogout', [SessionsController::class, 'destroy'])->middleware('auth
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/admin/posts/create', [PostController::class, 'create'])->middleware('admin');
