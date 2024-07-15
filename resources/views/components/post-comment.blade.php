@@ -1,10 +1,3 @@
-[< Go Back](../README.md)
-
-# Make a Comment
-
-To make a comment, we'll use an article tag and add a profile picture (the first div), a Title for the username and the comment in a p tag.
-
-```php
 <article class="flex bg-gray-100 border border-gray-200 p-6 rounded-xl space-x-4">
     <div class="flex-shrink-0">
         <img src="https://i.pravatar.cc/60" alt="" width="60" height="60" class="rounded-xl">
@@ -27,8 +20,3 @@ To make a comment, we'll use an article tag and add a profile picture (the first
         </p>
     </div>
 </article>
-```
-
-This will be made it's own component as we've been doing. That whole section of code will go into a file post-comment.blade.php and inside of the show-blog we'll hardcode it to see it as `<x-post-comment>`
-
-![browser image](./images/image01.png)
