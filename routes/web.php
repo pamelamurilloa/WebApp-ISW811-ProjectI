@@ -3,6 +3,7 @@
 use App\Models\Post;
 use App\Models\Category;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\PostCommentsController;
 use App\Http\Controllers\UregisterController;
 use App\Http\Controllers\SessionsController;
 use Illuminate\Support\Facades\Route;
@@ -22,6 +23,7 @@ use Spatie\YamlFrontMatter\YamlFrontMatter;
 */
 
 Route::get('/', [PostController::class, 'index']);
+Route::post('post/{post:slug}/comments', [PostCommentsController::class, 'store']);
 
 Route::get('posts/{post:slug}', [PostController::class, 'show']);
 
