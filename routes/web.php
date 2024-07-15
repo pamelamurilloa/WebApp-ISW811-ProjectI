@@ -2,6 +2,7 @@
 
 use App\Models\Post;
 use App\Models\Category;
+use App\Http\Controllers\AdminPostController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PostCommentsController;
@@ -42,5 +43,9 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/admin/posts/create', [PostController::class, 'create']);
-Route::post('admin/posts', [PostController::class, 'store']);
+Route::post('admin/posts', [AdminPostController::class, 'store'])->middleware('admin');
+Route::get('admin/posts/create', [AdminPostController::class, 'create'])->middleware('admin');
+Route::get('admin/posts', [AdminPostController::class, 'index'])->middleware('admin');
+Route::get('admin/posts/{post}/edit', [AdminPostController::class, 'edit'])->middleware('admin');
+Route::patch('admin/posts/{post}', [AdminPostController::class, 'update'])->middleware('admin');
+Route::delete('admin/posts/{post}', [AdminPostController::class, 'destroy'])->middleware('admin');
